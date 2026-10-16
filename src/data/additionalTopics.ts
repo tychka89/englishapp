@@ -353,10 +353,10 @@ export const additionalTopics: GrammarTopic[] = [
       { id: 14, question: "She is afraid ___ alone.", options: ["be", "to be", "being", "been"], correctAnswer: "to be", hint: "afraid + to + V1" },
       { id: 15, question: "I'd like ___ a coffee.", options: ["have", "to have", "having", "had"], correctAnswer: "to have", hint: "would like + to + V1" },
       { id: 16, question: "He refused ___ the question.", options: ["answer", "to answer", "answering", "answered"], correctAnswer: "to answer", hint: "refuse + to + V1" },
-      { id: 17, question: "I saw him ___ the room.", options: ["enter", "to enter", "entering", "entered"], correctAnswer: "enter", hint: "see + object + V1 (без to)" },
+      { id: 17, question: "I saw him ___ the room, sit down and open a book.", options: ["enter", "to enter", "entering", "entered"], correctAnswer: "enter", hint: "see + object + V1 (без to) — полное действие" },
       { id: 18, question: "She plans ___ abroad.", options: ["travel", "to travel", "travelling", "travelled"], correctAnswer: "to travel", hint: "plan + to + V1" },
       { id: 19, question: "It's easy ___ this exercise.", options: ["do", "to do", "doing", "done"], correctAnswer: "to do", hint: "прилагательное + to + V1" },
-      { id: 20, question: "I heard her ___ the piano.", options: ["play", "to play", "playing", "played"], correctAnswer: "play", hint: "hear + object + V1 (без to)" }
+      { id: 20, question: "I heard her ___ a complete sonata on the piano.", options: ["play", "to play", "playing", "played"], correctAnswer: "play", hint: "hear + object + V1 (без to) — полное действие" }
     ]
   },
   {
@@ -383,20 +383,20 @@ export const additionalTopics: GrammarTopic[] = [
     exercises: [
       { id: 1, question: "I want you ___ me.", options: ["help", "to help", "helping", "helped"], correctAnswer: "to help", hint: "want + object + to + V1" },
       { id: 2, question: "She made me ___.", options: ["laugh", "to laugh", "laughing", "laughed"], correctAnswer: "laugh", hint: "make + object + V1 (без to)" },
-      { id: 3, question: "I saw him ___ the street.", options: ["cross", "to cross", "crossing", "crossed"], correctAnswer: "cross", hint: "see + object + V1 (без to)" },
+      { id: 3, question: "I saw him ___ the street and disappear around the corner.", options: ["cross", "to cross", "crossing", "crossed"], correctAnswer: "cross", hint: "see + object + V1 (без to) — полное действие" },
       { id: 4, question: "We heard her ___ a song.", options: ["sing", "to sing", "singing", "sung"], correctAnswer: "sing", hint: "hear + object + V1 (без to)" },
       { id: 5, question: "I expect him ___ soon.", options: ["arrive", "to arrive", "arriving", "arrived"], correctAnswer: "to arrive", hint: "expect + object + to + V1" },
       { id: 6, question: "Let me ___ you.", options: ["help", "to help", "helping", "helped"], correctAnswer: "help", hint: "let + object + V1 (без to)" },
       { id: 7, question: "I'd like you ___ this.", options: ["do", "to do", "doing", "done"], correctAnswer: "to do", hint: "would like + object + to + V1" },
       { id: 8, question: "She watched the children ___ in the park.", options: ["play", "to play", "playing", "played"], correctAnswer: "playing", hint: "watch + object + V-ing" },
       { id: 9, question: "I don't want him ___ here.", options: ["be", "to be", "being", "been"], correctAnswer: "to be", hint: "want + object + to + V1" },
-      { id: 10, question: "They heard somebody ___ the door.", options: ["open", "to open", "opening", "opened"], correctAnswer: "open", hint: "hear + object + V1 (без to)" },
+      { id: 10, question: "They heard somebody ___ the door and leave.", options: ["open", "to open", "opening", "opened"], correctAnswer: "open", hint: "hear + object + V1 (без to) — полное действие" },
       { id: 11, question: "I wish you ___ here.", options: ["be", "to be", "being", "been"], correctAnswer: "to be", hint: "wish + object + to + V1" },
-      { id: 12, question: "We saw the sun ___ behind the clouds.", options: ["disappear", "to disappear", "disappearing", "disappeared"], correctAnswer: "disappear", hint: "see + object + V1 (без to)" },
+      { id: 12, question: "We saw the sun ___ behind the clouds completely.", options: ["disappear", "to disappear", "disappearing", "disappeared"], correctAnswer: "disappear", hint: "see + object + V1 (без to) — полное действие" },
       { id: 13, question: "She expects me ___ the work.", options: ["finish", "to finish", "finishing", "finished"], correctAnswer: "to finish", hint: "expect + object + to + V1" },
-      { id: 14, question: "I felt the house ___.", options: ["shake", "to shake", "shaking", "shook"], correctAnswer: "shake", hint: "feel + object + V1 (без to)" },
+      { id: 14, question: "I felt the house ___ and then everything stopped.", options: ["shake", "to shake", "shaking", "shook"], correctAnswer: "shake", hint: "feel + object + V1 (без to) — полное действие" },
       { id: 15, question: "He wants his son ___ a doctor.", options: ["be", "to be", "being", "been"], correctAnswer: "to be", hint: "want + object + to + V1" },
-      { id: 16, question: "I noticed her ___ the room.", options: ["leave", "to leave", "leaving", "left"], correctAnswer: "leave", hint: "notice + object + V1 (без to)" },
+      { id: 16, question: "I noticed her ___ the room without saying a word.", options: ["leave", "to leave", "leaving", "left"], correctAnswer: "leave", hint: "notice + object + V1 (без to) — полное действие" },
       { id: 17, question: "Don't let him ___ out.", options: ["go", "to go", "going", "gone"], correctAnswer: "go", hint: "let + object + V1 (без to)" },
       { id: 18, question: "I'd like you ___ with us.", options: ["come", "to come", "coming", "came"], correctAnswer: "to come", hint: "would like + object + to + V1" },
       { id: 19, question: "We watched the children ___ football.", options: ["play", "to play", "playing", "played"], correctAnswer: "playing", hint: "watch + object + V-ing" },

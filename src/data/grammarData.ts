@@ -94,14 +94,14 @@ export const grammarTopics: GrammarTopic[] = [
       { id: 9, question: "Listen! Somebody ___ the piano.", options: ["plays", "play", "is playing", "played"], correctAnswer: "is playing", hint: "Listen! — маркер действия сейчас" },
       { id: 10, question: "The students ___ an exam now.", options: ["take", "takes", "are taking", "took"], correctAnswer: "are taking", hint: "now + The students (they) → are + V-ing" },
       { id: 11, question: "What ___ you ___ at the moment?", options: ["do / do", "are / doing", "does / do", "is / doing"], correctAnswer: "are / doing", hint: "you → are, at the moment → V-ing" },
-      { id: 12, question: "My sister ___ a new song.", options: ["sings", "sing", "is singing", "sang"], correctAnswer: "is singing", hint: "Действие в процессе → is + V-ing" },
+      { id: 12, question: "Listen! My sister ___ a new song.", options: ["sings", "sing", "is singing", "sang"], correctAnswer: "is singing", hint: "Listen! — действие происходит сейчас → is + V-ing" },
       { id: 13, question: "We ___ to the cinema tonight.", options: ["go", "goes", "are going", "went"], correctAnswer: "are going", hint: "tonight — запланированное действие" },
       { id: 14, question: "He ___ a shower at the moment.", options: ["take", "takes", "is taking", "took"], correctAnswer: "is taking", hint: "at the moment → is + V-ing" },
       { id: 15, question: "___ it ___ outside?", options: ["Does / rain", "Is / raining", "Do / rain", "Are / raining"], correctAnswer: "Is / raining", hint: "it → Is, процесс → V-ing" },
       { id: 16, question: "I ___ to learn Spanish this year.", options: ["try", "tries", "am trying", "tried"], correctAnswer: "am trying", hint: "this year — временная ситуация" },
       { id: 17, question: "The dog ___ in the yard now.", options: ["run", "runs", "is running", "ran"], correctAnswer: "is running", hint: "now → is + V-ing" },
       { id: 18, question: "They ___ dinner at 7 p.m. today.", options: ["have", "has", "are having", "had"], correctAnswer: "are having", hint: "today + конкретное время → запланированное" },
-      { id: 19, question: "She ___ a book about history.", options: ["reads", "read", "is reading", "reading"], correctAnswer: "is reading", hint: "Действие в процессе → is + V-ing" },
+      { id: 19, question: "She ___ a book about history at the moment.", options: ["reads", "read", "is reading", "reading"], correctAnswer: "is reading", hint: "at the moment — действие в процессе → is + V-ing" },
       { id: 20, question: "My parents ___ a new house.", options: ["build", "builds", "are building", "built"], correctAnswer: "are building", hint: "Временная ситуация → are + V-ing" }
     ]
   },
@@ -267,7 +267,7 @@ export const grammarTopics: GrammarTopic[] = [
       { id: 8, question: "___ moon is very bright tonight.", options: ["A", "An", "The", "—"], correctAnswer: "The", hint: "Уникальный объект → the" },
       { id: 9, question: "He wants to be ___ engineer.", options: ["a", "an", "the", "—"], correctAnswer: "an", hint: "engineer начинается с гласного звука" },
       { id: 10, question: "I need ___ umbrella. It's raining.", options: ["a", "an", "the", "—"], correctAnswer: "an", hint: "umbrella начинается с гласного звука" },
-      { id: 11, question: "___ children love playing in ___ park.", options: ["The / the", "— / a", "A / the", "The / —"], correctAnswer: "The / the", hint: "Конкретные дети + конкретный парк" },
+      { id: 11, question: "___ children next door love playing in ___ park.", options: ["The / the", "— / a", "A / the", "The / —"], correctAnswer: "The / the", hint: "Конкретные дети + конкретный парк → the" },
       { id: 12, question: "She plays ___ piano very well.", options: ["a", "an", "the", "—"], correctAnswer: "the", hint: "Музыкальные инструменты → the" },
       { id: 13, question: "I'd like ___ cup of tea, please.", options: ["a", "an", "the", "—"], correctAnswer: "a", hint: "Один из многих → a" },
       { id: 14, question: "He is ___ tallest boy in the class.", options: ["a", "an", "the", "—"], correctAnswer: "the", hint: "Превосходная степень → the" },
@@ -401,14 +401,14 @@ export const grammarTopics: GrammarTopic[] = [
       { id: 10, question: "She arrived ___ Monday.", options: ["at", "in", "on", "—"], correctAnswer: "on", hint: "Дни → on" },
       { id: 11, question: "I'll see you ___ the morning.", options: ["at", "on", "in", "—"], correctAnswer: "in", hint: "Части дня → in" },
       { id: 12, question: "The meeting is ___ 3 p.m.", options: ["in", "on", "at", "—"], correctAnswer: "at", hint: "Конкретное время → at" },
-      { id: 13, question: "He works ___ a bank.", options: ["in", "on", "at", "—"], correctAnswer: "at", hint: "Место работы → at" },
+      { id: 13, question: "He is ___ work right now.", options: ["in", "on", "at", "—"], correctAnswer: "at", hint: "at work — устойчивое выражение" },
       { id: 14, question: "There are many fish ___ the sea.", options: ["on", "at", "in", "—"], correctAnswer: "in", hint: "Внутри среды → in" },
       { id: 15, question: "My birthday is ___ 5th of May.", options: ["at", "in", "on", "—"], correctAnswer: "on", hint: "Конкретная дата → on" },
       { id: 16, question: "We usually go skiing ___ winter.", options: ["at", "on", "in", "—"], correctAnswer: "in", hint: "Сезоны → in" },
       { id: 17, question: "The cat is hiding ___ the bed.", options: ["on", "at", "under", "—"], correctAnswer: "under", hint: "Под кроватью → under" },
       { id: 18, question: "She is waiting ___ the bus stop.", options: ["in", "on", "at", "—"], correctAnswer: "at", hint: "Точка/место → at" },
       { id: 19, question: "I'll call you ___ the evening.", options: ["at", "on", "in", "—"], correctAnswer: "in", hint: "Части дня → in" },
-      { id: 20, question: "The shop is ___ the corner of the street.", options: ["in", "on", "at", "—"], correctAnswer: "at", hint: "Точка → at" }
+      { id: 20, question: "Let's meet ___ the corner of the street.", options: ["in", "on", "at", "—"], correctAnswer: "at", hint: "Точка/место встречи → at" }
     ]
   },
   {
@@ -439,7 +439,7 @@ export const grammarTopics: GrammarTopic[] = [
       { id: 4, question: "He is the ___ student in the class. (smart)", options: ["more smart", "smartest", "most smart", "smarter"], correctAnswer: "smartest", hint: "Короткое прилагательное → -est" },
       { id: 5, question: "Today is ___ than yesterday. (cold)", options: ["more cold", "colder", "coldest", "most cold"], correctAnswer: "colder", hint: "Короткое прилагательное → -er" },
       { id: 6, question: "She is ___ happy than before. (happy)", options: ["happyer", "happier", "more happy", "most happy"], correctAnswer: "happier", hint: "-y после согласной → -ier" },
-      { id: 7, question: "This problem is ___ than that one. (difficult)", options: ["difficulter", "more difficult", "most difficult", "difficulter"], correctAnswer: "more difficult", hint: "Длинное прилагательное → more" },
+      { id: 7, question: "This problem is ___ than that one. (difficult)", options: ["difficulter", "more difficult", "most difficult", "difficultest"], correctAnswer: "more difficult", hint: "Длинное прилагательное → more" },
       { id: 8, question: "He is as ___ as his father. (strong)", options: ["stronger", "strong", "most strong", "strongest"], correctAnswer: "strong", hint: "as...as — прилагательное в начальной форме" },
       { id: 9, question: "This is the ___ film I've seen. (bad)", options: ["badder", "worse", "the worst", "more bad"], correctAnswer: "the worst", hint: "bad — исключение: bad-worse-the worst" },
       { id: 10, question: "My house is ___ than yours. (big)", options: ["biger", "bigger", "more big", "biggest"], correctAnswer: "bigger", hint: "big — удвоение согласной + er" },
