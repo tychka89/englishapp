@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { grammarTopics, sections } from './data/grammarData';
+import { allTopics, sections } from './data/grammarData';
 import { TopicCard } from './components/TopicCard';
 import { TheoryView } from './components/TheoryView';
 import { ExerciseView } from './components/ExerciseView';
@@ -21,9 +21,9 @@ function App() {
 
   const { progress, markCorrect, resetTopic, resetAll, getTotalScore, getTotalCompleted } = useProgress();
 
-  const selectedTopic = grammarTopics.find(t => t.id === selectedTopicId) || null;
+  const selectedTopic = allTopics.find(t => t.id === selectedTopicId) || null;
 
-  const totalExercises = grammarTopics.reduce((sum, t) => sum + t.exercises.length, 0);
+  const totalExercises = allTopics.reduce((sum, t) => sum + t.exercises.length, 0);
 
   const toggleDarkMode = () => {
     setDarkMode(!darkMode);
@@ -49,8 +49,8 @@ function App() {
   };
 
   const filteredTopics = selectedSection
-    ? grammarTopics.filter(t => t.section === selectedSection)
-    : grammarTopics;
+    ? allTopics.filter(t => t.section === selectedSection)
+    : allTopics;
 
   return (
     <div className={darkMode ? 'dark' : ''}>

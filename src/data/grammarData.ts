@@ -457,4 +457,8 @@ export const grammarTopics: GrammarTopic[] = [
   }
 ];
 
-export const sections = [...new Set(grammarTopics.map(t => t.section))];
+import { additionalTopics } from './additionalTopics';
+
+export const allTopics: GrammarTopic[] = [...grammarTopics, ...additionalTopics];
+
+export const sections = [...new Set(allTopics.map(t => t.section))];
