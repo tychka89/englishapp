@@ -230,7 +230,7 @@ export const grammarTopics: GrammarTopic[] = [
       { id: 15, question: "They ___ not come to the meeting.", options: ["will", "do", "are", "have"], correctAnswer: "will", hint: "Future Simple отрицание: will not" },
       { id: 16, question: "I promise I ___ be late.", options: ["won't", "don't", "am not", "haven't"], correctAnswer: "won't", hint: "I promise + won't" },
       { id: 17, question: "Perhaps she ___ agree with us.", options: ["will", "is", "does", "has"], correctAnswer: "will", hint: "Perhaps + предположение → will" },
-      { id: 18, question: "Look at those clouds! It ___ rain.", options: ["will", "is", "does", "has"], correctAnswer: "will", hint: "Предсказание на основе наблюдения → will" },
+      { id: 18, question: "I'm sure she ___ pass the exam.", options: ["will", "is", "does", "has"], correctAnswer: "will", hint: "I'm sure + предсказание → will" },
       { id: 19, question: "We ___ you as soon as we arrive.", options: ["will call", "call", "are calling", "called"], correctAnswer: "will call", hint: "as soon as + будущее → will + V1" },
       { id: 20, question: "___ it ___ snow tomorrow?", options: ["Will / snow", "Does / snow", "Is / snowing", "Do / snow"], correctAnswer: "Will / snow", hint: "tomorrow → Will + V1" }
     ]
